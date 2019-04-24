@@ -19,7 +19,7 @@ using namespace std;
 SimpleKalmanFilter simpleKalmanFilter(1, 1, 0.01);
 
 //Set addr beacon
-char mac_addr_beacon[18]= {"AC:23:3F:22:B7:B6"};
+char mac_addr_beacon[18]= {"AC:23:3F:22:B7:6A"};
 
 int8_t rssi;
 double rssi_loc;
@@ -196,6 +196,7 @@ int main(int argc, char **argv){
 
                 //Publisher
                 rssi_loc = simpleKalmanFilter.updateEstimate(rssi); 
+				// txPower =7(4dBm), n=2 (for free space)
 				double distance = getDistance(rssi_loc ,7,2);
 				//printf("%f  %f \n",rssi_loc,distance);
 

@@ -9,7 +9,7 @@ void number_callback(const beacon_rssi::beacon::ConstPtr& msg) {
 }
 
 int main(int argc, char **argv) { 
-    ros::init(argc, argv,"demo_msg_subscriber");
+    ros::init(argc, argv,"beacon_subscriber");
     ros::NodeHandle node_obj;
    
     ros::Subscriber number_subscriber = node_obj.subscribe("/beacon",10,number_callback);
