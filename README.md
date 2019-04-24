@@ -25,3 +25,8 @@
         B3: copy dòng sau vào cuối file : alias aa='catkin_make -DCATKIN_WHITELIST_PACKAGES="beacon_rssi" && sudo setcap 'cap_net_raw,cap_net_admin+eip' ~/catkin_ws/devel/lib/beacon_rssi/beacon_rssi_publisher '
         B4 : source ~/.bashrc
         B5 : aa 
+
+[Folder: images ]
+
+    - t
+
