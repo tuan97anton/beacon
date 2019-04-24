@@ -1,20 +1,19 @@
-# beacon
-Hướng dẫn sử dụng:
+# Hướng dẫn sử dụng
 
 // run file scan_one_beacon.cpp
-B1. gcc scan_one_beacon.cpp -lbluetooth -o scan_one_beacon
-B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_one_beacon
+-B1. gcc scan_one_beacon.cpp -lbluetooth -o scan_one_beacon
+-B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_one_beacon
 B3. ./scan_one_beacon  
 
 // run file scan_all.cpp
-B1. gcc scan_all.cpp -lbluetooth -o scan_all
-B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_all
-B3. ./scan_all 
+-B1. gcc scan_all.cpp -lbluetooth -o scan_all
+-B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_all
+-B3. ./scan_all 
 
 // run file scan_kalman.cpp
-B1. gcc scan_kalman.cpp -lbluetooth -o scan_kalman
-B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_kalman
-B3. ./scan_kalman  
+-B1. gcc scan_kalman.cpp -lbluetooth -o scan_kalman
+-B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_kalman
+-B3. ./scan_kalman  
 
 
 // node beacon_rssi 
