@@ -1,22 +1,21 @@
 # Hướng dẫn sử dụng
 
-// run file scan_one_beacon.cpp
--B1. gcc scan_one_beacon.cpp -lbluetooth -o scan_one_beacon
--B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_one_beacon
-B3. ./scan_one_beacon  
+1.File scan_one_beacon.cpp : Đọc rssi của 1 beacon
+- B1. gcc scan_one_beacon.cpp -lbluetooth -o scan_one_beacon
+- B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_one_beacon
+- B3. ./scan_one_beacon  
 
-// run file scan_all.cpp
--B1. gcc scan_all.cpp -lbluetooth -o scan_all
--B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_all
--B3. ./scan_all 
+2.File scan_all.cpp : Đọc rssi của các beacon tìm được
+- B1. gcc scan_all.cpp -lbluetooth -o scan_all
+- B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_all
+- B3. ./scan_all 
 
-// run file scan_kalman.cpp
--B1. gcc scan_kalman.cpp -lbluetooth -o scan_kalman
--B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_kalman
--B3. ./scan_kalman  
+3.File scan_kalman.cpp : Đọc rssi của 1 beacon đã qua bộ lọc Kalman
+- B1. gcc scan_kalman.cpp -lbluetooth -o scan_kalman
+- B2. sudo setcap 'cap_net_raw,cap_net_admin+eip' scan_kalman
+- B3. ./scan_kalman  
 
-
-// node beacon_rssi 
+4.Node beacon_rssi : 
 - Subcribe topic /beacon để lấy thông tin rssi và khoảng cách đã sử dụng bộ lọc.
 - Bạn có thể  gộp catkin_make và setcap bằng cách sau :
     B1: cd catkin_ws/
