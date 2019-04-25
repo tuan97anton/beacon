@@ -1,4 +1,11 @@
 # Hướng dẫn sử dụng
+
+[Cài đặt thư viện]
+
+    - Thư viện Bluez :https:https://learn.adafruit.com/install-bluez-on-the-raspberry-pi/installation
+    - Thư viện libbluetooth-dev : sudo apt-get install libbluetooth-dev
+    - Thư viện libncurses5-dev  : sudo apt-get install libncurses5-dev
+    
 [Folder: beacon_scan ]
 
     1.File scan_one_beacon.cpp : Đọc rssi của 1 beacon
@@ -28,5 +35,5 @@
 
 [Folder: images ]
 
-    - t
+    - 
 
