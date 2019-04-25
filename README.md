@@ -35,5 +35,8 @@
 
 [Folder: images ]
 
-    - 
+    - Thí nghiệm với 5 beacon với thông sô : TxPower = 4dBm , Broadcasting Interval = 100 ms, Measured Distance = -59 dBm ) , 5 beacon đặt trên mặt phẳng, với khoảng cách giữa các beacon trong 2 bài test được thể hiện trong 2 ảnh TEST1.PNG và TEST2.PNG .
+    - Board Jetson TK2 đặt trên mô hình xe 
+        + Bài test 1 : Xe bắt đầu ở vị trí Beacon 1, đi theo hướng mũi tên , mỗi quang đường tương ứng với 1 biểu đồ dữ liệu trong file bieudo.ods ( ex: dữ liệu quãng đường 1 tưỡng ứng biều đồ FILE1 )
+        + Bài test 2 : Xe đi theo hướng mũi t
 
