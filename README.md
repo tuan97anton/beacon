@@ -53,15 +53,15 @@
  
  [Địa chỉ MAC Beacon dùng trên sân]
  
-    - Sân xanh : G1 : AC233F286F3A 
-                 G2 : AC233F286E90
-                 G3 : AC233F286F70
-                 G4 : AC233F286E7C
-                 G5 : AC233F286E91
-    - Sân đỏ   : R1 : AC233F286E80
-                 R2 : AC233F286E89
-                 R3 : AC233F22B7B6
-                 R4 : AC233F22B7B8
-                 R5 : AC233F22B76A
+    - Sân xanh : G1 : AC:23:3F:28:6F:3A 
+                 G2 : AC:23:3F:28:6E:90
+                 G3 : AC:23:3F:28:6F:70
+                 G4 : AC:23:3F:28:6E:7C
+                 G5 : AC:23:3F:28:6E:91
+    - Sân đỏ   : R1 : AC:23:3F:28:6E:80
+                 R2 : AC:23:3F:28:6E:89
+                 R3 : AC:23:3F:22:B7:B6
+                 R4 : AC:23:3F:22:B7:B8
+                 R5 : AC:23:3F:22:B7:6A
     
 
